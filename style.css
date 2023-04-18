@@ -1,0 +1,122 @@
+body {
+    background-color: #46C7C7;
+    color: #571B7E;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;  
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    padding: 0px 0px
+  }
+
+  h6 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;  
+    text-align: center;
+    line-height: 59px;
+    margin: 0;
+    padding: 0px 0px
+  }
+  
+  .stopwatch {
+    left: 150px;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 10px;
+    width: 100%;
+    padding-top: 2px;
+    
+  }
+
+  .head{
+    ruby-overhang:250px;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 120%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 200px;
+    width: 200px;  
+    border: 2px solid;
+    border-radius: 100%;
+    
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 40px;
+  }
+  
+  .gold {
+    left: 59px;
+    font-weight: 900;
+    justify-content: center;
+    color: #c741709c;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;  
+    width: 270px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0 5px;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+
+  .countdown1{
+    margin: -450px 30px;
+    padding: 2px;
+    display: inline-block;
+    position:absolute;
+    left: 1095px;
+  
+  }
+
+  footer {
+    background-color: #46C7C7;
+    color: black;
+    margin: 52x 580px;
+    text-align: center;
+  }
+  
+  footer > p{
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  footer > p > i {
+    color: red;
+  }
+  
+  footer > p > a {
+    color: blueviolet;
+    transition: .5s;
+  }
